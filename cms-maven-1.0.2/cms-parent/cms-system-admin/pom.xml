@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hic.cms</groupId>
+    <artifactId>cms-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.hic.cms</groupId>
+  <artifactId>cms-system-admin</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>cms-system-admin</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.hic.cms</groupId>
+       <artifactId>cms-common</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+       
+    
+   <dependency>
+      <groupId>com.hic.cms</groupId>
+     <artifactId>cms-serviceimpl-cache</artifactId>
+     <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+     <dependency>
+      <groupId>com.hic.cms</groupId>
+  <artifactId>cms-serviceimpl-biz</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+      <dependency>
+   <groupId>com.hic.cms</groupId>
+  <artifactId>cms-system-common</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   </dependency>
+   
+        
+         <!-- 导入java ee jar 包 -->  
+        <dependency>  
+            <groupId>javax</groupId>  
+            <artifactId>javaee-api</artifactId>  
+        </dependency>  
+        
+
+        
+        <!-- JSTL标签类 -->  
+        <dependency>  
+            <groupId>jstl</groupId>  
+            <artifactId>jstl</artifactId>  
+        </dependency>  
+        <!-- 日志文件管理包 -->  
+        <!-- log start -->  
+        <dependency>  
+            <groupId>log4j</groupId>  
+            <artifactId>log4j</artifactId>  
+        </dependency>  
+          
+          
+        <!-- 格式化对象，方便输出日志 -->  
+        <dependency>  
+            <groupId>com.alibaba</groupId>  
+            <artifactId>fastjson</artifactId>  
+        </dependency>  
+  
+  
+        <dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-api</artifactId>  
+        </dependency>  
+  
+        <dependency>  
+            <groupId>org.slf4j</groupId>  
+            <artifactId>slf4j-log4j12</artifactId>  
+        </dependency>  
+        <!-- log end -->  
+        
+        <!-- 映入JSON -->  
+        <dependency>  
+            <groupId>org.codehaus.jackson</groupId>  
+            <artifactId>jackson-mapper-asl</artifactId>  
+        </dependency>  
+        <!-- 上传组件包 -->  
+        <dependency>  
+            <groupId>commons-fileupload</groupId>  
+            <artifactId>commons-fileupload</artifactId>  
+        </dependency>  
+        <dependency>  
+            <groupId>commons-io</groupId>  
+            <artifactId>commons-io</artifactId>  
+        </dependency>  
+        <dependency>  
+            <groupId>commons-codec</groupId>  
+            <artifactId>commons-codec</artifactId>  
+        </dependency>
+        
+         <!-- ueditor-->  
+            <dependency>
+        	<groupId>ueditorExt</groupId>
+        	<artifactId>ueditorExt</artifactId>
+        </dependency>
+        <dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+</dependency>
+  </dependencies>
+  <packaging>war</packaging>
+</project>
