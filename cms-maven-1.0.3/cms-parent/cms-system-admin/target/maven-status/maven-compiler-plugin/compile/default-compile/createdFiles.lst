@@ -1,0 +1,10 @@
+com\hic\controller\AdminController.class
+com\hic\resolver\CommonsMultipartResolverExt.class
+com\hic\filter\AuthFilter.class
+com\hic\controller\UserController.class
+com\hic\controller\MenuController.class
+com\hic\controller\RoleController.class
+com\hic\controller\UEditorController.class
+com\hic\controller\WebUIController.class
+com\hic\controller\CategoryController.class
+com\hic\controller\ArticleController.class

@@ -1,0 +1,11 @@
+com\hic\model\Sys_menu.class
+com\hic\model\Sys_User.class
+com\hic\service\IBaseService.class
+com\hic\model\Cms_Article.class
+com\hic\service\ISys_RoleService.class
+com\hic\model\Cms_Category.class
+com\hic\service\ISys_menuService.class
+com\hic\model\Sys_Role.class
+com\hic\service\ISys_UserService.class
+com\hic\service\ICms_CategoryService.class
+com\hic\service\ICms_ArticleService.class

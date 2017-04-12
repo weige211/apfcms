@@ -1,0 +1,10 @@
+com\hic\mapper\Sys_RoleMapper.class
+com\hic\service\impl\Sys_UserServiceImpl.class
+com\hic\mapper\Sys_menuMapper.class
+com\hic\mapper\Cms_ArticleMapper.class
+com\hic\service\impl\Sys_menuServiceImpl.class
+com\hic\mapper\Cms_CategoryMapper.class
+com\hic\service\impl\Cms_CategoryServiceImpl.class
+com\hic\service\impl\Cms_ArticleServiceImpl.class
+com\hic\service\impl\Sys_RoleServiceImpl.class
+com\hic\mapper\Sys_UserMapper.class
